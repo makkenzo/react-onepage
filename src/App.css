@@ -288,3 +288,92 @@ body {
 
     color: #ffffff;
 }
+
+/* -----------------------------technology section----------------------------- */
+
+#technology {
+    margin-top: 100px;
+}
+
+.technology-header {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+    color: #222222;
+
+    margin-bottom: 5px;
+    margin-top: 77px;
+}
+
+.technology-h1 {
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 36px;
+
+    color: #222222;
+
+    margin-bottom: 15px;
+}
+
+.technology-p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: #666666;
+    margin-bottom: 177px;
+}
+
+.technology-img {
+    position: absolute;
+    z-index: -1;
+}
+
+/* -----------------------------speed&security section----------------------------- */
+
+#security {
+    background-color: #f2f2f2;
+    padding-top: 100px;
+}
+
+.speed-header {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #222222;
+
+    margin-bottom: 5px;
+    margin-top: 70px;
+}
+
+.speed-h1 {
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 36px;
+    color: #222222;
+
+    margin-bottom: 15px;
+}
+
+.speed-p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #666666;
+
+    margin-bottom: 195px;
+}
+
+.speed-img {
+    position: absolute;
+}
+/* -----------------------------dark mode section----------------------------- */
+#dark {
+    background-color: #222222;
+}

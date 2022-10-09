@@ -2,6 +2,9 @@ import NavigationBar from './components/NavigationBar';
 import HeroSection from './components/HeroSection';
 import FeaturesSection from './components/FeaturesSection';
 import AnalysisSection from './components/AnalysisSection';
+import TechnologySection from './components/TechnologySection';
+import SpeedAndSecuritySection from './components/SpeedAndSecuritySection';
+import DarkModeSection from './components/DarkModeSection';
 
 import Container from 'react-bootstrap/Container';
 
@@ -26,6 +29,21 @@ function App() {
             <div id="analysis">
                 <Container>
                     <AnalysisSection />
+                </Container>
+            </div>
+            <div id="technology">
+                <Container>
+                    <TechnologySection />
+                </Container>
+            </div>
+            <div id="security">
+                <Container>
+                    <SpeedAndSecuritySection />
+                </Container>
+            </div>
+            <div id="dark">
+                <Container>
+                    <DarkModeSection />
                 </Container>
             </div>
         </>
