@@ -62,3 +62,158 @@ body {
 .hero-button {
     margin-right: 10px;
 }
+
+.hero-img {
+    position: absolute;
+    z-index: -1;
+}
+
+.features {
+    background-color: #222222;
+    margin-top: 155px;
+}
+
+.features-p {
+    padding-top: 100px;
+    color: #ffffff;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.features-h1 {
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 36px;
+    /* or 112% */
+
+    text-align: center;
+
+    color: #ffffff;
+}
+
+.card {
+    min-height: 490px;
+    border-radius: 1rem !important;
+}
+
+.card-1 {
+    background-image: url('./img/cards/card1.png');
+    background-repeat: no-repeat;
+    background-position: 50% 40px;
+}
+
+.card-2 {
+    background-image: url('./img/cards/card2.png');
+    background-repeat: no-repeat;
+    background-position: 50% 40px;
+}
+
+.card-3 {
+    background-image: url('./img/cards/card3.png');
+    background-repeat: no-repeat;
+    background-position: 50% 40px;
+}
+
+.card-4 {
+    background-image: url('./img/cards/card4.png');
+    background-repeat: no-repeat;
+    background-position: 50% 40px;
+}
+
+.card-5 {
+    background-image: url('./img/cards/card5.png');
+    background-repeat: no-repeat;
+    background-position: 50% 40px;
+}
+
+.card-6 {
+    background-image: url('./img/cards/card6.png');
+    background-repeat: no-repeat;
+    background-position: 50% 40px;
+}
+
+.overlap {
+    background-color: #ffffff;
+    margin-top: 293px;
+    height: 193px;
+    border-radius: 1rem;
+}
+
+.card-p {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+
+    color: #222222;
+}
+
+.card-1-h5 {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+
+    color: #0278ed;
+    padding-top: 28px;
+}
+
+.card-2-h5 {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+
+    color: #ff5437;
+    padding-top: 28px;
+}
+
+.card-3-h5 {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+
+    color: #ff9209;
+    padding-top: 28px;
+}
+
+.card-4-h5 {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+
+    color: #e738ce;
+    padding-top: 28px;
+}
+
+.card-5-h5 {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+
+    color: #00c6df;
+    padding-top: 28px;
+}
+
+.card-6-h5 {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+
+    color: #b25df8;
+    padding-top: 28px;
+}
+
+.my-card-img {
+    position: absolute;
+    left: 42%;
+    top: 53%;
+}
+
+.my-cards {
+    padding-top: 40px;
+    padding-bottom: 100px;
+}

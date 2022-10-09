@@ -1,5 +1,6 @@
 import NavigationBar from './components/NavigationBar';
 import HeroSection from './components/HeroSection';
+import FeaturesSection from './components/FeaturesSection';
 
 import Container from 'react-bootstrap/Container';
 
@@ -16,6 +17,11 @@ function App() {
             <Container className="hero-container">
                 <HeroSection />
             </Container>
+            <div className="features">
+                <Container>
+                    <FeaturesSection />
+                </Container>
+            </div>
         </>
     );
 }
