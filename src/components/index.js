@@ -7,3 +7,6 @@ export { default as PricingSection } from './PricingSection';
 export { default as SpeedAndSecuritySection } from './SpeedAndSecuritySection';
 export { default as TechnologySection } from './TechnologySection';
 export { default as TestimonialsSection } from './TestimonialsSection';
+export { default as DownloadSection } from './DownloadSection';
+export { default as FAQSection } from './FAQSection';
+export { default as Footer } from './Footer';

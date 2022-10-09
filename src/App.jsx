@@ -8,6 +8,9 @@ import {
     DarkModeSection,
     PricingSection,
     TestimonialsSection,
+    DownloadSection,
+    FAQSection,
+    Footer,
 } from './components';
 
 import Container from 'react-bootstrap/Container';
@@ -60,6 +63,19 @@ function App() {
                     <TestimonialsSection />
                 </Container>
             </div>
+            <div id="download">
+                <Container>
+                    <DownloadSection />
+                </Container>
+            </div>
+            <div id="faq">
+                <Container>
+                    <FAQSection />
+                </Container>
+            </div>
+            <Container>
+                <Footer />
+            </Container>
         </>
     );
 }
