@@ -31,6 +31,8 @@ body {
     color: #666666 !important;
 }
 
+/* -----------------------------hero section----------------------------- */
+
 .hero-container {
     margin-top: 100px;
 }
@@ -68,7 +70,9 @@ body {
     z-index: -1;
 }
 
-.features {
+/* -----------------------------features section----------------------------- */
+
+#features {
     background-color: #222222;
     margin-top: 155px;
 }
@@ -96,6 +100,8 @@ body {
 
     color: #ffffff;
 }
+
+/* -----------------------------card section----------------------------- */
 
 .card {
     min-height: 490px;
@@ -216,4 +222,69 @@ body {
 .my-cards {
     padding-top: 40px;
     padding-bottom: 100px;
+}
+
+/* -----------------------------analysis section----------------------------- */
+#analysis {
+    background-color: #ff5437;
+    color: #ffffff;
+}
+
+.my-analysis {
+    padding-top: 80px;
+    padding-bottom: 70px;
+}
+
+.pictures > p:nth-child(1) {
+    font-weight: 400;
+    font-size: 96px;
+    line-height: 96px;
+}
+
+.pictures > p:nth-child(2) {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+    color: #ffffff;
+}
+
+.operations > p:nth-child(1) {
+    font-weight: 400;
+    font-size: 95px;
+    line-height: 96px;
+
+    color: #ffffff;
+}
+
+.operations > p:nth-child(2) {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+    color: #ffffff;
+}
+
+.accuracy > p:nth-child(1) {
+    font-weight: 400;
+    font-size: 96px;
+    line-height: 96px;
+
+    color: #ffffff;
+}
+
+.accuracy > p:nth-child(2) {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+    color: #ffffff;
 }

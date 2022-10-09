@@ -12,7 +12,9 @@ const NavigationBar = () => {
                     </a>
                 </Nav.Item>
                 <Nav.Item>
-                    <Nav.Link eventKey="link-1">Features</Nav.Link>
+                    <Nav.Link eventKey="link-1" href="#features">
+                        Features
+                    </Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
                     <Nav.Link eventKey="link-2">Pricing</Nav.Link>
