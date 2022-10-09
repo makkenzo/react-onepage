@@ -5,6 +5,7 @@ import AnalysisSection from './components/AnalysisSection';
 import TechnologySection from './components/TechnologySection';
 import SpeedAndSecuritySection from './components/SpeedAndSecuritySection';
 import DarkModeSection from './components/DarkModeSection';
+import PricingSection from './components/PricingSection';
 
 import Container from 'react-bootstrap/Container';
 
@@ -44,6 +45,11 @@ function App() {
             <div id="dark">
                 <Container>
                     <DarkModeSection />
+                </Container>
+            </div>
+            <div id="pricing">
+                <Container>
+                    <PricingSection />
                 </Container>
             </div>
         </>

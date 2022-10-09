@@ -1,6 +1,5 @@
 import React from 'react';
-import Nav from 'react-bootstrap/Nav';
-import Button from 'react-bootstrap/Button';
+import { Nav, Button } from 'react-bootstrap';
 
 const NavigationBar = () => {
     return (
@@ -17,7 +16,9 @@ const NavigationBar = () => {
                     </Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
-                    <Nav.Link eventKey="link-2">Pricing</Nav.Link>
+                    <Nav.Link eventKey="link-2" href="#pricing">
+                        Pricing
+                    </Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
                     <Nav.Link eventKey="link-3">Testimonials</Nav.Link>

@@ -103,7 +103,7 @@ body {
 
 /* -----------------------------card section----------------------------- */
 
-.card {
+.my-card {
     min-height: 490px;
     border-radius: 1rem !important;
 }
@@ -376,4 +376,189 @@ body {
 /* -----------------------------dark mode section----------------------------- */
 #dark {
     background-color: #222222;
+    color: #ffffff;
+}
+
+.dark-mode > p:nth-child(1) {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    padding-top: 100px;
+}
+
+.dark-mode > h1 {
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 36px;
+    margin-bottom: 14px;
+}
+
+.dark-mode > p:nth-child(2) {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 11px;
+}
+
+.light-pic {
+    padding-top: 40px;
+    margin-left: 60px;
+    margin-bottom: 200px;
+}
+
+.dark-pic {
+    padding: 0 !important;
+    padding-top: 40px !important;
+}
+
+.my-dark-icons {
+    margin-top: 40px !important;
+}
+
+/* -----------------------------pricing section----------------------------- */
+
+#pricing {
+    margin-top: 100px;
+}
+
+.pricing > p:nth-child(1) {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #222222;
+    margin-bottom: 5px;
+}
+
+.pricing > h1 {
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 36px;
+    color: #222222;
+    margin-bottom: 14px;
+}
+
+.pricing > p:nth-child(2) {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #666666;
+}
+
+.my-pricing-cards {
+    margin-bottom: 100px;
+}
+
+.pricing-card {
+    background: #f2f2f2 !important;
+    border-radius: 20px !important;
+    border: none !important;
+}
+
+.pricing-card-1-title {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #0278ed;
+}
+
+.pricing-card-2-title {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 24px;
+    color: #ff5437;
+}
+
+.pricing-card-3-title {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #ff9209;
+}
+
+.pricing-card-1-p {
+    font-weight: 400;
+    font-size: 108px;
+    line-height: 124px;
+    letter-spacing: 8px;
+    color: #0278ed;
+}
+
+.pricing-card-2-p {
+    font-weight: 400;
+    font-size: 105px;
+    line-height: 124px;
+    letter-spacing: 8px;
+    color: #ff5437;
+}
+
+.pricing-card-3-p {
+    font-weight: 400;
+    font-size: 104px;
+    line-height: 124px;
+    letter-spacing: 8px;
+    color: #ff9209;
+}
+
+.pricing-card-p2 {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #222222;
+}
+
+.pricing-card-1-btn {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #ffffff;
+    padding: 10px 25px 10px 25px !important;
+}
+
+.pricing-card-2-btn {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding: 10px 25px 10px 25px !important;
+    color: #ffffff;
+    background: #ff5437 !important;
+    border-color: #ff5437 !important;
+}
+
+.pricing-card-3-btn {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding: 10px 25px 10px 25px !important;
+    color: #ffffff;
+    background: #ff9209 !important;
+    border-color: #ff9209 !important;
+}
+
+.pricing-card-2-btn:hover {
+    background: #c6422b !important;
+}
+
+.pricing-card-2-btn:active {
+    background: #e04c32 !important;
+}
+
+.pricing-card-3-btn:hover {
+    background: #e38108 !important;
+}
+
+.pricing-card-3-btn:active {
+    background: #ef8708 !important;
 }

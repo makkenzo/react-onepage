@@ -7,7 +7,7 @@ import Button from 'react-bootstrap/Button';
 const HeroSection = () => {
     return (
         <>
-            <Row className="justify-content-md-center">
+            <Row className="justify-content-md-center my-dark-icons">
                 <Col xs lg="5">
                     <img className="hero-left" src={require('../img/logo-xl.png')} alt="" />
                     <h1 className="hero-h1">
