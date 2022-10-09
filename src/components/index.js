@@ -1,0 +1,9 @@
+export { default as AnalysisSection } from './AnalysisSection';
+export { default as DarkModeSection } from './DarkModeSection';
+export { default as FeaturesSection } from './FeaturesSection';
+export { default as HeroSection } from './HeroSection';
+export { default as NavigationBar } from './NavigationBar';
+export { default as PricingSection } from './PricingSection';
+export { default as SpeedAndSecuritySection } from './SpeedAndSecuritySection';
+export { default as TechnologySection } from './TechnologySection';
+export { default as TestimonialsSection } from './TestimonialsSection';

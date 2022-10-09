@@ -1,11 +1,14 @@
-import NavigationBar from './components/NavigationBar';
-import HeroSection from './components/HeroSection';
-import FeaturesSection from './components/FeaturesSection';
-import AnalysisSection from './components/AnalysisSection';
-import TechnologySection from './components/TechnologySection';
-import SpeedAndSecuritySection from './components/SpeedAndSecuritySection';
-import DarkModeSection from './components/DarkModeSection';
-import PricingSection from './components/PricingSection';
+import {
+    AnalysisSection,
+    NavigationBar,
+    HeroSection,
+    FeaturesSection,
+    TechnologySection,
+    SpeedAndSecuritySection,
+    DarkModeSection,
+    PricingSection,
+    TestimonialsSection,
+} from './components';
 
 import Container from 'react-bootstrap/Container';
 
@@ -50,6 +53,11 @@ function App() {
             <div id="pricing">
                 <Container>
                     <PricingSection />
+                </Container>
+            </div>
+            <div id="testimonials">
+                <Container>
+                    <TestimonialsSection />
                 </Container>
             </div>
         </>
